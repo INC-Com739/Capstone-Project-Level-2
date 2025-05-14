@@ -4,8 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <title>Card List</title>
+    <title>Cards</title>
 </head>
+<style>
+    body {
+        background-color: #6f070c;
+        background-image: image(url('https://wallpapercave.com/wp/CGvgvNH.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+    }
+    .card {
+        margin: 20px 0;
+    }
+    .navbar {
+        margin-bottom: 20px;
+        
+    }
+    .container {
+        max-width: 800px;
+    }
+    .card-title {
+        font-size: 1.5rem;
+    }
+    .card-text {
+        font-size: 1rem;
+    }
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+    .form-control {
+        margin-bottom: 10px;
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+    .invalid-feedback {
+        display: none;
+    }
+    .form-control:invalid ~ .invalid-feedback {
+        display: block;
+    }
+    .form-control:valid ~ .valid-feedback {
+        display: block;
+    }
+    .valid-feedback {
+        display: none;
+    }
+    .form-control:valid ~ .valid-feedback {
+        display: block;
+    }
+    .btn-primary:disabled {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+    .btn-primary:disabled:hover {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+</style>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Main navigation">
         <a class="navbar-brand" href="#">Yu-Gi-Oh API</a>
@@ -20,18 +86,68 @@
     <div class="container">
         <h1>Card List</h1>
         <div class="row">
-            <!-- Example of a Bootstrap card -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="card-image.jpg" alt="Card Name" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">Card Name</h5>
-                        <p class="card-text">Description of the card.</p>
-                        <a href="#" class="btn btn-primary">View Details</a>
+                        <a href="#" class="btn btn-primary">Generate Random Card</a>
+                         <form id="cardForm">
+            <div class="form-group">
+                 <p class="card-text">Description of the card.</p>
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" required>
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please enter a name.</div>
+            </div>
+            <div class="form-group">
+                <label for="type">Type</label>
+                <select class="form-control" id="type" required>
+                    <option value="">Select Type</option>
+                    <option value="Monster">Monster</option>
+                    <option value="Spell">Spell</option>
+                    <option value="Trap">Trap</option>
+                </select>
+                <div class="invalid-feedback">Please select a type.</div>
+            </div>
+            <div class="form-group">
+                <label>Era</label>
+                <div>
+                    <input type="radio" id="era1" name="era" value="Classic" required>
+                    <label for="era1">Classic</label>
+                    <input type="radio" id="era2" name="era" value="Modern" required>
+                    <label for="era2">Modern</label>
+                </div>
+                <div class="invalid-feedback">Please select an era.</div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <div id="result" class="mt-4"></div>
+    </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        document.getElementById('cardForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            if (this.checkValidity()) {
+                const name = document.getElementById('name').value;
+                const type = document.getElementById('type').value;
+                const era = document.querySelector('input[name="era"]:checked').value;
+
+                const resultHTML = `
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">${name}</h5>
+                            <p class="card-text">Type: ${type}</p>
+                            <p class="card-text">Era: ${era}</p>
+                        </div>
+                    </div>
+                `;
+                document.getElementById('result').innerHTML = resultHTML;
+            }
+        });
+    </script>
 </body>
 </html>
