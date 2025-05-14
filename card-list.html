@@ -148,10 +148,12 @@
     </div>
         
     <script>
-         // Add any additional JavaScript here
-        $(document).ready(function() {
-            // Example: Show an alert when the page loads
-            alert("Welcome to the Yu-Gi-Oh Card list!");
+        // Enable Bootstrap tooltips
+        document.addEventListener('DOMContentLoaded', function () {
+            const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="tooltip"]'));
+            const tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl);
+            });
         });
         document.getElementById('cardForm').addEventListener('submit', function(event) {
             event.preventDefault();
