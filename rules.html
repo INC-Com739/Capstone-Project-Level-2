@@ -32,6 +32,14 @@
     }
     .card-text {
         font-size: 1rem;
+        color: #000;
+        font-weight: bold;
+        font-family: fantasy;
+    }
+    .h2 {
+        color: #000000;
+        font-family: fantasy;
+        font-weight: bold;
     }
     </style>
 <body>
@@ -49,9 +57,26 @@
         <h1>Rules</h1>
         <div class="alert alert-info" role="alert">Welcome to the Yu-Gi-Oh rules page!</div>
         <!-- Additional content and API data display -->
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">Game Rules</h2>
+                <p class="card-text">Yu-Gi-Oh is a trading card game where players duel each other using decks of cards. The objective is to reduce your opponent's life points to zero.</p>
+                <p class="card-text">Each player starts with 8000 life points. Players take turns drawing cards, playing monsters, spells, and traps, and attacking their opponent's monsters or directly.</p>
+                <p class="card-text">The game has various phases: Draw Phase, Standby Phase, Main Phase 1, Battle Phase, Main Phase 2, and End Phase. Each phase has specific actions that can be performed.</p>
+                <p class="card-text">Players can win by reducing their opponent's life points to zero, causing them to draw from an empty deck, or achieving specific win conditions set by certain cards.</p>
+                <p class="card-text">For more detailed rules, visit the official Yu-Gi-Oh website or refer to the rulebook included with your cards.</p>
+                <a href="https://www.yugioh.com/rules" class="btn btn-primary">Learn More</a>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // JavaScript code for any additional functionality
+         // Add any additional JavaScript here
+        $(document).ready(function() {
+            // Example: Show an alert when the page loads
+            alert("Welcome to the Yu-Gi-Oh Rules!");
+        });
+    </script>
 </body>
 </html>

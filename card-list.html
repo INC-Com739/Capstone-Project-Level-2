@@ -9,7 +9,7 @@
 <style>
     body {
         background-color: #6f070c;
-        background-image: image(url('https://wallpapercave.com/wp/CGvgvNH.jpg');
+       background-image: url('https://wallpapers.com/images/high/three-egyptian-gods-yu-gi-oh-t92ica3i6dcr4kcd.webp');
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -30,8 +30,20 @@
     }
     .card-title {
         font-size: 1.5rem;
+        color: #000;
+        font-family: fantasy;
+        font-weight: bold;
     }
     .card-text {
+        font-size: 1rem;
+        color: #000;
+        font-weight: bold;
+        font-family: fantasy;
+    }
+    .name{
+        color: #000;
+        font-family: fantasy;
+        font-weight: bold;
         font-size: 1rem;
     }
     .btn-primary {
@@ -70,6 +82,12 @@
     .btn-primary:disabled:hover {
         background-color: #007bff;
         border-color: #007bff;
+    }
+    footer {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #343a40;
+        color: #fff;
     }
 </style>
 <body>
@@ -128,7 +146,13 @@
             </div>
         </div>
     </div>
+        
     <script>
+         // Add any additional JavaScript here
+        $(document).ready(function() {
+            // Example: Show an alert when the page loads
+            alert("Welcome to the Yu-Gi-Oh Card list!");
+        });
         document.getElementById('cardForm').addEventListener('submit', function(event) {
             event.preventDefault();
             if (this.checkValidity()) {
