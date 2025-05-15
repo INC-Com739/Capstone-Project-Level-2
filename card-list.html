@@ -40,12 +40,6 @@
         font-weight: bold;
         font-family: fantasy;
     }
-    .name{
-        color: #000;
-        font-family: fantasy;
-        font-weight: bold;
-        font-size: 1rem;
-    }
     .btn-primary {
         background-color: #007bff;
         border-color: #007bff;
@@ -59,6 +53,9 @@
     }
     .form-group {
         margin-bottom: 15px;
+        color: #000;
+        font-family: fantasy;
+        font-weight: bold;
     }
     .invalid-feedback {
         display: none;
@@ -107,7 +104,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Card Name</h5>
+                        <h5 class="card-title">Choose Your Card</h5>
                         <a href="#" class="btn btn-primary">Generate Random Card</a>
                          <form id="cardForm">
             <div class="form-group">
@@ -132,8 +129,20 @@
                 <div>
                     <input type="radio" id="era1" name="era" value="Classic" required>
                     <label for="era1">Classic</label>
-                    <input type="radio" id="era2" name="era" value="Modern" required>
-                    <label for="era2">Modern</label>
+                    <input type="radio" id="era2" name="era" value="GX" required>
+                    <label for="era2">GX</label>
+                    <input type="radio" id="era3" name="era" value="5D's" required>
+                    <label for="era3">5D's</label>
+                    <input type="radio" id="era4" name="era" value="Zexal" required>
+                    <label for="era4">Zexal</label>
+                    <input type="radio" id="era5" name="era" value="Arc-V" required>
+                    <label for="era5">Arc-V</label>
+                    <input type="radio" id="era6" name="era" value="VRAINS" required>
+                    <label for="era6">VRAINS</label>
+                    <input type="radio" id="era7" name="era" value="SEVENS" required>
+                    <label for="era7">SEVENS</label>
+                    <input type="radio" id="era8" name="era" value="GO RUSH!!" required>
+                    <label for="era8">GO RUSH!!</label>
                 </div>
                 <div class="invalid-feedback">Please select an era.</div>
             </div>
@@ -141,12 +150,12 @@
         </form>
         <div id="result" class="mt-4"></div>
     </div>
+    <button type="reset" class="btn btn-secondary" id="resetButton">Reset</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-        
     <script>
         // Enable Bootstrap tooltips
         document.addEventListener('DOMContentLoaded', function () {
@@ -174,6 +183,79 @@
                 document.getElementById('result').innerHTML = resultHTML;
             }
         });
+        document.getElementById('resetButton').addEventListener('click', function() {
+            document.getElementById('result').innerHTML = '';
+        });
+       // Generate random card information from the yugioh API
+        document.querySelector('.btn-primary').addEventListener('click', async function() {
+            try {
+            const url = 'https://db.ygoprodeck.com/api/v7/randomcard.php';
+            const response = await fetch(url, {headers: {"Access-Control-Allow-Origin":"*"}});
+            const data = await response.json();
+            const resultHTML = `
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">${data.data[0].name}</h5>
+                        <img src="${data.data[0].card_images[0].image_url_small}" class="card-img-top" alt="${data.data[0].name}">
+                        <p class="card-text">Type: ${data.data[0].type}</p>
+                        <p class="card-text">Level: ${data.data[0].level}</p>
+                    </div>
+                </div>
+            `;
+     
+            document.getElementById('cardForm').innerHTML = resultHTML;
+            
+            } catch (error) {
+                console.error("Error fetching random card:", error);
+            }
+        });
+            // Have the reset button reset the form after generating a random card and go back to the form
+            document.getElementById('resetButton').addEventListener('click', function() {
+                document.getElementById('cardForm').innerHTML = `
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Please enter a name.</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="type">Type</label>
+                        <select class="form-control" id="type" required>
+                            <option value="">Select Type</option>
+                            <option value="Monster">Monster</option>
+                            <option value="Spell">Spell</option>
+                            <option value="Trap">Trap</option>
+                        </select>
+                        <div class="invalid-feedback">Please select a type.</div>
+                    </div>
+                    <div class="form-group">
+                        <label>Era</label>
+                        <div>
+                            <input type="radio" id="era1" name="era" value="Classic" required>
+                            <label for="era1">Classic</label>
+                            <input type="radio" id="era2" name="era" value="GX" required>
+                            <label for="era2">GX</label>
+                            <input type="radio" id="era3" name="era" value="5D's" required>
+                            <label for="era3">5D's</label>
+                            <input type="radio" id="era4" name="era" value="Zexal" required>
+                            <label for="era4">Zexal</label>
+                            <input type="radio" id="era5" name="era" value="Arc-V" required>
+                            <label for="era5">Arc-V</label>
+                            <input type="radio" id="era6" name="era" value="VRAINS" required>
+                            <label for="era6">VRAINS</label>
+                            <input type="radio" id="era7" name="era" value="SEVENS" required>
+                            <label for="era7">SEVENS</label>
+                            <input type="radio" id="era8" name="era" value="GO RUSH!!" required>
+                            <label for="era8">GO RUSH!!</label>
+                        </div>
+                        <div class="invalid-feedback">Please select an era.</div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                `;
+                document.getElementById('result').innerHTML = '';
+            });
+        ;
+            
     </script>
 </body>
 </html>
