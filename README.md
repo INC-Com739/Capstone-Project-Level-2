@@ -84,3 +84,37 @@ Highlight how you combined multiple requirements – Show where you efficiently 
 This presentation is an opportunity to showcase not just your final product but also your understanding of the code and problem-solving approach.
 
 Plan ahead, be strategic, and build efficiently!
+
+The purpose of your project:
+To create a YU-GI-OH API containing everything from the franchise, Access to all card information, the website, A trivia quiz to test your knowledge, and a set of rules to follow when you do play the game.
+Sections of the Project
+Home Page:
+
+Provides an overview of the website and its features.
+Includes navigation links to other sections.
+Trivia Page:
+
+Features a Yu-Gi-Oh trivia game.
+Dynamically fetches trivia questions from an external API and combines them with custom questions.
+Includes a spinner to indicate loading states and feedback for correct/incorrect answers.
+Card List Page:
+
+Displays a list of Yu-Gi-Oh cards fetched from an external API.
+Allows users to filter cards by name, type, and level.
+Includes a "Generate Random Card" feature and a reset button.
+Uses a spinner to indicate loading states while fetching data.
+Rules Page:
+
+Provides information about the rules of the Yu-Gi-Oh card game.
+Includes preformatted text and styled content for better readability.
+External APIs Used
+Yu-Gi-Oh Card API:
+
+URL: https://db.ygoprodeck.com/api/v7/cardinfo.php
+Purpose: Fetches data about Yu-Gi-Oh cards, including card names, types, levels, attributes, and images.
+Used in the Card List Page to display card details and generate random cards.
+Custom Trivia API:
+
+URL: http://localhost:3000/api/trivia (or a similar endpoint for local development)
+Purpose: Provides trivia questions about Yu-Gi-Oh, combining custom questions with dynamically fetched data.
+Used in the Trivia Page to create an interactive quiz experience.
