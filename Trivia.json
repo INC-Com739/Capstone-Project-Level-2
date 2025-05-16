@@ -1,0 +1,2129 @@
+{
+    "data": [
+        {
+            "id": 21044178,
+            "name": "Abyss Dweller",
+            "typeline": [
+                "Sea Serpent",
+                "Xyz",
+                "Effect"
+            ],
+            "type": "XYZ Monster",
+            "humanReadableCardType": "Xyz Effect Monster",
+            "frameType": "xyz",
+            "desc": "2 Level 4 monsters\nWhile this card has a material attached that was originally WATER, all WATER monsters you control gain 500 ATK. Once per turn (Quick Effect): You can detach 1 material from this card; your opponent cannot activate any card effects in their GY this turn.",
+            "race": "Sea Serpent",
+            "atk": 1700,
+            "def": 1400,
+            "level": 4,
+            "attribute": "WATER",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/abyss-dweller-1806",
+            "card_sets": [
+                {
+                    "set_name": "25th Anniversary Rarity Collection II",
+                    "set_code": "RA02-EN033",
+                    "set_rarity": "Collector's Rare",
+                    "set_rarity_code": "(CR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "25th Anniversary Rarity Collection II",
+                    "set_code": "RA02-EN033",
+                    "set_rarity": "Platinum Secret Rare",
+                    "set_rarity_code": "(PS)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "25th Anniversary Rarity Collection II",
+                    "set_code": "RA02-EN033",
+                    "set_rarity": "Quarter Century Secret Rare",
+                    "set_rarity_code": "",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "25th Anniversary Rarity Collection II",
+                    "set_code": "RA02-EN033",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "25th Anniversary Rarity Collection II",
+                    "set_code": "RA02-EN033",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "25th Anniversary Rarity Collection II",
+                    "set_code": "RA02-EN033",
+                    "set_rarity": "Ultimate Rare",
+                    "set_rarity_code": "(UtR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "25th Anniversary Rarity Collection II",
+                    "set_code": "RA02-EN033",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Abyss Rising",
+                    "set_code": "ABYR-EN084",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Crossover Breakers",
+                    "set_code": "CRBR-EN012",
+                    "set_rarity": "Rare",
+                    "set_rarity_code": "(R)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Duel Devastator",
+                    "set_code": "DUDE-EN016",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "1.78"
+                },
+                {
+                    "set_name": "OTS Tournament Pack 13",
+                    "set_code": "OP13-EN002",
+                    "set_rarity": "Ultimate Rare",
+                    "set_rarity_code": "(UtR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "OTS Tournament Pack 13 (POR)",
+                    "set_code": "OP13-PT002",
+                    "set_rarity": "Ultimate Rare",
+                    "set_rarity_code": "(UtR)",
+                    "set_price": "0.00"
+                },
+                {
+                    "set_name": "OTS Tournament Pack 20",
+                    "set_code": "OP20-EN020",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Premium Gold: Infinite Gold",
+                    "set_code": "PGL3-EN068",
+                    "set_rarity": "Gold Rare",
+                    "set_rarity_code": "(GUR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "The Secret Forces",
+                    "set_code": "THSF-EN047",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "2.87"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Forbidden",
+                "ban_ocg": "Forbidden"
+            },
+            "card_images": [
+                {
+                    "id": 21044178,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/21044178.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/21044178.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/21044178.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.07",
+                    "tcgplayer_price": "0.07",
+                    "ebay_price": "1.75",
+                    "amazon_price": "1.68",
+                    "coolstuffinc_price": "1.99"
+                }
+            ]
+        },
+        {
+            "id": 62320425,
+            "name": "Agido the Ancient Sentinel",
+            "typeline": [
+                "Fairy",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "If a card(s) is sent from the hand or Deck to your opponent's GY (except during the Damage Step): You can Special Summon this card from your hand, then you can Special Summon 1 Level 4 EARTH Fairy monster from your GY, except \"Agido the Ancient Sentinel\". If this card is sent from the hand or Deck to the GY: You can activate this effect; each player sends the top 5 cards of their Deck to the GY (or their entire Deck, if less than 5), then, if \"Exchange of the Spirit\" is in your GY, you can send 5 more cards from the top of either player's Deck to the GY. You can only use each effect of \"Agido the Ancient Sentinel\" once per turn.",
+            "race": "Fairy",
+            "atk": 1500,
+            "def": 1300,
+            "level": 4,
+            "attribute": "EARTH",
+            "archetype": "Exchange of the Spirit",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/agido-the-ancient-sentinel-13181",
+            "card_sets": [
+                {
+                    "set_name": "Magnificent Mavens",
+                    "set_code": "MAMA-EN028",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Forbidden",
+                "ban_ocg": "Forbidden"
+            },
+            "card_images": [
+                {
+                    "id": 62320425,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/62320425.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/62320425.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/62320425.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.61",
+                    "tcgplayer_price": "0.55",
+                    "ebay_price": "1.99",
+                    "amazon_price": "7.44",
+                    "coolstuffinc_price": "1.99"
+                }
+            ]
+        },
+        {
+            "id": 440556,
+            "name": "Bahamut Shark",
+            "typeline": [
+                "Sea Serpent",
+                "Xyz",
+                "Effect"
+            ],
+            "type": "XYZ Monster",
+            "humanReadableCardType": "Xyz Effect Monster",
+            "frameType": "xyz",
+            "desc": "2 Level 4 WATER monsters\nOnce per turn: You can detach 1 material from this card; Special Summon 1 Rank 3 or lower WATER Xyz Monster from your Extra Deck. This card cannot attack for the rest of this turn.",
+            "race": "Sea Serpent",
+            "atk": 2600,
+            "def": 2100,
+            "level": 4,
+            "attribute": "WATER",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/bahamut-shark-45",
+            "card_sets": [
+                {
+                    "set_name": "25th Anniversary Tin: Dueling Mirrors",
+                    "set_code": "MP24-EN036",
+                    "set_rarity": "Quarter Century Secret Rare",
+                    "set_rarity_code": "",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Abyss Rising",
+                    "set_code": "ABYR-EN099",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Legendary Duelists: Duels From the Deep",
+                    "set_code": "LED9-EN011",
+                    "set_rarity": "Rare",
+                    "set_rarity_code": "(R)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "OTS Tournament Pack 13",
+                    "set_code": "OP13-EN009",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "OTS Tournament Pack 13 (POR)",
+                    "set_code": "OP13-PT009",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0.00"
+                },
+                {
+                    "set_name": "Premium Gold: Infinite Gold",
+                    "set_code": "PGL3-EN069",
+                    "set_rarity": "Gold Rare",
+                    "set_rarity_code": "(GUR)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Forbidden"
+            },
+            "card_images": [
+                {
+                    "id": 440556,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/440556.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/440556.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/440556.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.22",
+                    "tcgplayer_price": "0.14",
+                    "ebay_price": "0.99",
+                    "amazon_price": "0.25",
+                    "coolstuffinc_price": "0.49"
+                }
+            ]
+        },
+        {
+            "id": 73356503,
+            "name": "Barrier Statue of the Stormwinds",
+            "typeline": [
+                "Winged Beast",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "No monsters can be Special Summoned, except for WIND monsters.",
+            "race": "Winged Beast",
+            "atk": 1000,
+            "def": 1000,
+            "level": 4,
+            "attribute": "WIND",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/barrier-statue-of-the-stormwinds-6159",
+            "card_sets": [
+                {
+                    "set_name": "Cyberdark Impact",
+                    "set_code": "CDIP-EN021",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Maximum Gold",
+                    "set_code": "MAGO-EN114",
+                    "set_rarity": "Rare",
+                    "set_rarity_code": "(R)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Forbidden",
+                "ban_ocg": "Forbidden"
+            },
+            "card_images": [
+                {
+                    "id": 73356503,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/73356503.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/73356503.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/73356503.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.54",
+                    "tcgplayer_price": "0.20",
+                    "ebay_price": "2.40",
+                    "amazon_price": "3.42",
+                    "coolstuffinc_price": "2.99"
+                }
+            ]
+        },
+        {
+            "id": 61901281,
+            "name": "Black Dragon Collapserpent",
+            "typeline": [
+                "Dragon",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by banishing 1 LIGHT monster from your GY. You can only Special Summon \"Black Dragon Collapserpent\" once per turn this way. If this card is sent from the field to the GY: You can add 1 \"White Dragon Wyverburster\" from your Deck to your hand.",
+            "race": "Dragon",
+            "atk": 1800,
+            "def": 1700,
+            "level": 4,
+            "attribute": "DARK",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/black-dragon-collapserpent-5240",
+            "card_sets": [
+                {
+                    "set_name": "2014 Mega-Tin Mega Pack",
+                    "set_code": "MP14-EN185",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Astral Pack Six",
+                    "set_code": "AP06-EN006",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Battles of Legend: Hero's Revenge",
+                    "set_code": "BLHR-EN077",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Maximum Gold: El Dorado",
+                    "set_code": "MGED-EN133",
+                    "set_rarity": "Rare",
+                    "set_rarity_code": "(R)",
+                    "set_price": "1.04"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN204",
+                    "set_rarity": "Platinum Secret Rare",
+                    "set_rarity_code": "(PS)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN204",
+                    "set_rarity": "Quarter Century Secret Rare",
+                    "set_rarity_code": "",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Rise of the True Dragons Structure Deck",
+                    "set_code": "SR02-EN017",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Shadow Specters",
+                    "set_code": "SHSP-EN096",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Albaz Strike",
+                    "set_code": "SDAZ-EN013",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0.92"
+                },
+                {
+                    "set_name": "Synchron Extreme Structure Deck",
+                    "set_code": "SDSE-EN023",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "1.54"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Semi-Limited"
+            },
+            "card_images": [
+                {
+                    "id": 61901281,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/61901281.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/61901281.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/61901281.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.05",
+                    "tcgplayer_price": "0.09",
+                    "ebay_price": "0.99",
+                    "amazon_price": "1.50",
+                    "coolstuffinc_price": "0.25"
+                }
+            ]
+        },
+        {
+            "id": 581014,
+            "name": "Daigusto Emeral",
+            "typeline": [
+                "Rock",
+                "Xyz",
+                "Effect"
+            ],
+            "type": "XYZ Monster",
+            "humanReadableCardType": "Xyz Effect Monster",
+            "frameType": "xyz",
+            "desc": "2 Level 4 monsters\nOnce per turn: You can detach 1 material from this card, then activate 1 of these effects.\n● Target 3 monsters in your GY; shuffle all 3 into the Deck, then draw 1 card.\n● Target 1 non-Effect Monster in your GY; Special Summon that target.",
+            "race": "Rock",
+            "atk": 1800,
+            "def": 800,
+            "level": 4,
+            "attribute": "WIND",
+            "archetype": "Gusto",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/daigusto-emeral-55",
+            "card_sets": [
+                {
+                    "set_name": "2-Player Starter Set",
+                    "set_code": "STAX-EN041",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Battle Pack 3: Monster League",
+                    "set_code": "BP03-EN122",
+                    "set_rarity": "Shatterfoil Rare",
+                    "set_rarity_code": "(SHR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Duel Overload",
+                    "set_code": "DUOV-EN081",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "2.28"
+                },
+                {
+                    "set_name": "Duel Terminal 7a",
+                    "set_code": "DT07-EN036",
+                    "set_rarity": "Duel Terminal Ultra Parallel Rare",
+                    "set_rarity_code": "(DUPR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Hidden Arsenal 7: Knight of Stars",
+                    "set_code": "HA07-EN020",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Premium Gold: Infinite Gold",
+                    "set_code": "PGL3-EN065",
+                    "set_rarity": "Gold Rare",
+                    "set_rarity_code": "(GUR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN163",
+                    "set_rarity": "Platinum Secret Rare",
+                    "set_rarity_code": "(PS)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN163",
+                    "set_rarity": "Quarter Century Secret Rare",
+                    "set_rarity_code": "",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Limited"
+            },
+            "card_images": [
+                {
+                    "id": 581014,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/581014.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/581014.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/581014.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.30",
+                    "tcgplayer_price": "0.34",
+                    "ebay_price": "0.99",
+                    "amazon_price": "0.79",
+                    "coolstuffinc_price": "0.99"
+                }
+            ]
+        },
+        {
+            "id": 14536035,
+            "name": "Dark Grepher",
+            "typeline": [
+                "Warrior",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "You can Special Summon this card (from your hand) by discarding 1 Level 5 or higher DARK monster. Once per turn: You can discard 1 DARK monster; send 1 DARK monster from your Deck to the GY.",
+            "race": "Warrior",
+            "atk": 1700,
+            "def": 1600,
+            "level": 4,
+            "attribute": "DARK",
+            "archetype": "Grepher",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/dark-grepher-1244",
+            "card_sets": [
+                {
+                    "set_name": "Dark Saviors",
+                    "set_code": "DASA-EN042",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "2.32"
+                },
+                {
+                    "set_name": "Duel Terminal 6b",
+                    "set_code": "DT06-EN058",
+                    "set_rarity": "Duel Terminal Normal Parallel Rare",
+                    "set_rarity_code": "(DNPR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Legendary Collection 3: Yugi's World Mega Pack",
+                    "set_code": "LCYW-EN208",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "1.96"
+                },
+                {
+                    "set_name": "Pendulum Domination Structure Deck",
+                    "set_code": "SDPD-EN017",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Phantom Darkness",
+                    "set_code": "PTDN-EN000",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Phantom Darkness Sneak Peek Participation Card",
+                    "set_code": "PTDN-ENSP1",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "9.57"
+                },
+                {
+                    "set_name": "Turbo Pack: Booster Three",
+                    "set_code": "TU03-EN001",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Limited"
+            },
+            "card_images": [
+                {
+                    "id": 14536035,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/14536035.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/14536035.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/14536035.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "2.35",
+                    "tcgplayer_price": "2.24",
+                    "ebay_price": "2.00",
+                    "amazon_price": "68.49",
+                    "coolstuffinc_price": "0.99"
+                }
+            ]
+        },
+        {
+            "id": 51858306,
+            "name": "Eclipse Wyvern",
+            "typeline": [
+                "Dragon",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "If this card is sent to the Graveyard: Banish 1 Level 7 or higher LIGHT or DARK Dragon-Type monster from your Deck. If this card is banished from your Graveyard: You can add the monster banished by this card's effect to your hand.",
+            "race": "Dragon",
+            "atk": 1600,
+            "def": 1000,
+            "level": 4,
+            "attribute": "LIGHT",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/eclipse-wyvern-4415",
+            "card_sets": [
+                {
+                    "set_name": "Dragons Collide Structure Deck",
+                    "set_code": "SDDC-EN003",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "2.31"
+                },
+                {
+                    "set_name": "Premium Gold",
+                    "set_code": "PGLD-EN041",
+                    "set_rarity": "Gold Rare",
+                    "set_rarity_code": "(GUR)",
+                    "set_price": "2.61"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN177",
+                    "set_rarity": "Platinum Secret Rare",
+                    "set_rarity_code": "(PS)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN177",
+                    "set_rarity": "Quarter Century Secret Rare",
+                    "set_rarity_code": "",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Rise of the True Dragons Structure Deck",
+                    "set_code": "SR02-EN015",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Forbidden",
+                "ban_ocg": "Forbidden"
+            },
+            "card_images": [
+                {
+                    "id": 51858306,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/51858306.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/51858306.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/51858306.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.24",
+                    "tcgplayer_price": "0.45",
+                    "ebay_price": "1.85",
+                    "amazon_price": "0.76",
+                    "coolstuffinc_price": "0.39"
+                }
+            ]
+        },
+        {
+            "id": 17412721,
+            "name": "Elder Entity Norden",
+            "typeline": [
+                "Fairy",
+                "Fusion",
+                "Effect"
+            ],
+            "type": "Fusion Monster",
+            "humanReadableCardType": "Fusion Effect Monster",
+            "frameType": "fusion",
+            "desc": "1 Synchro or Xyz Monster + 1 Synchro or Xyz Monster\nWhen this card is Special Summoned: You can target 1 Level 4 or lower monster in your Graveyard; Special Summon it, but its effects are negated, also banish it when this card leaves the field.",
+            "race": "Fairy",
+            "atk": 2000,
+            "def": 2200,
+            "level": 4,
+            "attribute": "WATER",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/elder-entity-norden-1508",
+            "card_sets": [
+                {
+                    "set_name": "2015 Mega-Tins",
+                    "set_code": "CT12-EN003",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "3.19"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN226",
+                    "set_rarity": "Platinum Secret Rare",
+                    "set_rarity_code": "(PS)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN226",
+                    "set_rarity": "Quarter Century Secret Rare",
+                    "set_rarity_code": "",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Forbidden",
+                "ban_ocg": "Forbidden"
+            },
+            "card_images": [
+                {
+                    "id": 17412721,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/17412721.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/17412721.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/17412721.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.50",
+                    "tcgplayer_price": "1.38",
+                    "ebay_price": "2.43",
+                    "amazon_price": "1.85",
+                    "coolstuffinc_price": "0.99"
+                }
+            ]
+        },
+        {
+            "id": 34022970,
+            "name": "Ext Ryzeal",
+            "typeline": [
+                "Pyro",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "You can Special Summon this card (from your hand) by sending 1 Xyz Monster from your Extra Deck to the GY. If Summoned this way, you cannot Special Summon from the Extra Deck for the rest of this turn, except Rank 4 Xyz Monsters. You can only Special Summon \"Ext Ryzeal\" once per turn this way. If this card is Normal or Special Summoned and you control no other face-up monsters, except Level/Rank 4 monsters: You can add 1 FIRE Thunder monster from your Deck to your hand. You can only use this effect of \"Ext Ryzeal\" once per turn.",
+            "race": "Pyro",
+            "atk": 500,
+            "def": 2000,
+            "level": 4,
+            "attribute": "LIGHT",
+            "archetype": "Ryzeal",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/ext-ryzeal-14636",
+            "card_sets": [
+                {
+                    "set_name": "Crossover Breakers",
+                    "set_code": "CRBR-EN004",
+                    "set_rarity": "Collector's Rare",
+                    "set_rarity_code": "(CR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Crossover Breakers",
+                    "set_code": "CRBR-EN004",
+                    "set_rarity": "Quarter Century Secret Rare",
+                    "set_rarity_code": "",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Crossover Breakers",
+                    "set_code": "CRBR-EN004",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Semi-Limited",
+                "ban_ocg": "Limited"
+            },
+            "card_images": [
+                {
+                    "id": 34022970,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/34022970.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/34022970.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/34022970.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "13.76",
+                    "tcgplayer_price": "13.02",
+                    "ebay_price": "0.00",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "0.00"
+                }
+            ]
+        },
+        {
+            "id": 55623480,
+            "name": "Fairy Tail - Snow",
+            "typeline": [
+                "Spellcaster",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "If this card is Normal or Special Summoned: You can target 1 face-up monster your opponent controls; change it to face-down Defense Position. If this card is in your GY (Quick Effect): You can banish 7 other cards from your hand, field, and/or GY; Special Summon this card.",
+            "race": "Spellcaster",
+            "atk": 1850,
+            "def": 1000,
+            "level": 4,
+            "attribute": "LIGHT",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/fairy-tail-snow-4737",
+            "card_sets": [
+                {
+                    "set_name": "2017 Mega-Tin Mega Pack",
+                    "set_code": "MP17-EN091",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "OTS Tournament Pack 19",
+                    "set_code": "OP19-EN022",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "3.24"
+                },
+                {
+                    "set_name": "OTS Tournament Pack 19 (POR)",
+                    "set_code": "OP19-PT022",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "OTS Tournament Pack 5",
+                    "set_code": "OP05-EN005",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN269",
+                    "set_rarity": "Platinum Secret Rare",
+                    "set_rarity_code": "(PS)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN269",
+                    "set_rarity": "Quarter Century Secret Rare",
+                    "set_rarity_code": "",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "The Dark Illusion",
+                    "set_code": "TDIL-EN042",
+                    "set_rarity": "Short Print",
+                    "set_rarity_code": "(SP)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Forbidden"
+            },
+            "card_images": [
+                {
+                    "id": 55623480,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/55623480.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/55623480.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/55623480.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.41",
+                    "tcgplayer_price": "0.35",
+                    "ebay_price": "2.95",
+                    "amazon_price": "9.32",
+                    "coolstuffinc_price": "0.49"
+                }
+            ]
+        },
+        {
+            "id": 8633261,
+            "name": "Ice Ryzeal",
+            "typeline": [
+                "Pyro",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "You can Special Summon this card (from your hand) by sending 1 card from your hand or field to the GY. If Summoned this way, you cannot Special Summon from the Extra Deck for the rest of this turn, except Rank 4 Xyz Monsters. You can only Special Summon \"Ice Ryzeal\" once per turn this way. If this card is Normal Summoned: You can Special Summon 1 \"Ryzeal\" monster from your Deck, except \"Ice Ryzeal\". You can only use this effect of \"Ice Ryzeal\" once per turn.",
+            "race": "Pyro",
+            "atk": 1700,
+            "def": 1000,
+            "level": 4,
+            "attribute": "LIGHT",
+            "archetype": "Ryzeal",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/ice-ryzeal-14637",
+            "card_sets": [
+                {
+                    "set_name": "Crossover Breakers",
+                    "set_code": "CRBR-EN003",
+                    "set_rarity": "Quarter Century Secret Rare",
+                    "set_rarity_code": "",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Crossover Breakers",
+                    "set_code": "CRBR-EN003",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Semi-Limited"
+            },
+            "card_images": [
+                {
+                    "id": 8633261,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/8633261.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/8633261.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/8633261.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "15.34",
+                    "tcgplayer_price": "17.86",
+                    "ebay_price": "0.00",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "0.00"
+                }
+            ]
+        },
+        {
+            "id": 25926710,
+            "name": "Kelbek the Ancient Vanguard",
+            "typeline": [
+                "Fairy",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "If a card(s) is sent from the hand or Deck to your opponent's GY (except during the Damage Step): You can target 1 Special Summoned monster your opponent controls; Special Summon this card from your hand, then return that monster to the hand. If this card is sent from the hand or Deck to the GY: You can activate this effect; each player sends the top 5 cards of their Deck to the GY (or their entire Deck, if less than 5), then, if \"Exchange of the Spirit\" is in your GY, you can Set 1 Trap from your GY. You can only use each effect of \"Kelbek the Ancient Vanguard\" once per turn.",
+            "race": "Fairy",
+            "atk": 1500,
+            "def": 1800,
+            "level": 4,
+            "attribute": "EARTH",
+            "archetype": "Exchange of the Spirit",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/kelbek-the-ancient-vanguard-13255",
+            "card_sets": [
+                {
+                    "set_name": "Magnificent Mavens",
+                    "set_code": "MAMA-EN027",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Forbidden",
+                "ban_ocg": "Forbidden"
+            },
+            "card_images": [
+                {
+                    "id": 25926710,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/25926710.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/25926710.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/25926710.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.92",
+                    "tcgplayer_price": "0.58",
+                    "ebay_price": "1.59",
+                    "amazon_price": "7.50",
+                    "coolstuffinc_price": "5.99"
+                }
+            ]
+        },
+        {
+            "id": 63542003,
+            "name": "Keldo the Sacred Protector",
+            "typeline": [
+                "Fairy",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "You can discard 1 other EARTH Fairy monster; Special Summon this card from your hand, then add 1 \"Exchange of the Spirit\" or 1 card that mentions it from your Deck to your hand. (Quick Effect): You can banish this card from your field or GY, then target up to 3 cards in any GY(s), or up to 5 if \"Exchange of the Spirit\" is on your field or in your GY; shuffle them into the Deck. You can only use each effect of \"Keldo the Sacred Protector\" once per turn.",
+            "race": "Fairy",
+            "atk": 1200,
+            "def": 1600,
+            "level": 4,
+            "attribute": "EARTH",
+            "archetype": "Exchange of the Spirit",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/keldo-the-sacred-protector-13189",
+            "card_sets": [
+                {
+                    "set_name": "Magnificent Mavens",
+                    "set_code": "MAMA-EN025",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Limited",
+                "ban_ocg": "Limited"
+            },
+            "card_images": [
+                {
+                    "id": 63542003,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/63542003.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/63542003.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/63542003.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.36",
+                    "tcgplayer_price": "0.60",
+                    "ebay_price": "1.49",
+                    "amazon_price": "0.49",
+                    "coolstuffinc_price": "3.99"
+                }
+            ]
+        },
+        {
+            "id": 34086406,
+            "name": "Lavalval Chain",
+            "typeline": [
+                "Sea Serpent",
+                "Xyz",
+                "Effect"
+            ],
+            "type": "XYZ Monster",
+            "humanReadableCardType": "Xyz Effect Monster",
+            "frameType": "xyz",
+            "desc": "2 Level 4 monsters\nOnce per turn: You can detach 1 Xyz Material from this card to activate 1 of these effects;\n● Send 1 card from your Deck to the Graveyard.\n● Choose 1 monster from your Deck and place it on top of your Deck.",
+            "race": "Sea Serpent",
+            "atk": 1800,
+            "def": 1000,
+            "level": 4,
+            "attribute": "FIRE",
+            "archetype": "Laval",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/lavalval-chain-2894",
+            "card_sets": [
+                {
+                    "set_name": "Duel Terminal 7a",
+                    "set_code": "DT07-EN035",
+                    "set_rarity": "Duel Terminal Ultra Parallel Rare",
+                    "set_rarity_code": "(DUPR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Hidden Arsenal 7: Knight of Stars",
+                    "set_code": "HA07-EN019",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Premium Gold: Return of the Bling",
+                    "set_code": "PGL2-EN044",
+                    "set_rarity": "Gold Rare",
+                    "set_rarity_code": "(GUR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN162",
+                    "set_rarity": "Platinum Secret Rare",
+                    "set_rarity_code": "(PS)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN162",
+                    "set_rarity": "Quarter Century Secret Rare",
+                    "set_rarity_code": "",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Forbidden",
+                "ban_ocg": "Forbidden"
+            },
+            "card_images": [
+                {
+                    "id": 34086406,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/34086406.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/34086406.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/34086406.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.93",
+                    "tcgplayer_price": "4.80",
+                    "ebay_price": "43.99",
+                    "amazon_price": "6.03",
+                    "coolstuffinc_price": "4.99"
+                }
+            ]
+        },
+        {
+            "id": 36521307,
+            "name": "Mathmech Circular",
+            "typeline": [
+                "Cyberse",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "You can send 1 \"Mathmech\" monster, except \"Mathmech Circular\", from your Deck to your GY; Special Summon this card from your hand, also you can only attack with 1 monster for the rest of this turn. If a \"Mathmech\" monster is Normal or Special Summoned to your field while you control this monster (except during the Damage Step): You can add 1 \"Mathmech\" Spell/Trap from your Deck to your hand. You can only use each effect of \"Mathmech Circular\" once per turn.",
+            "race": "Cyberse",
+            "atk": 1500,
+            "def": 1500,
+            "level": 4,
+            "attribute": "LIGHT",
+            "archetype": "Mathmech",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/mathmech-circular-13164",
+            "card_sets": [
+                {
+                    "set_name": "Power of the Elements",
+                    "set_code": "POTE-EN028",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Limited",
+                "ban_ocg": "Limited"
+            },
+            "card_images": [
+                {
+                    "id": 36521307,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/36521307.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/36521307.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/36521307.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "1.53",
+                    "tcgplayer_price": "0.60",
+                    "ebay_price": "2.95",
+                    "amazon_price": "3.99",
+                    "coolstuffinc_price": "0.49"
+                }
+            ]
+        },
+        {
+            "id": 38572779,
+            "name": "Miscellaneousaurus",
+            "typeline": [
+                "Dinosaur",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "During either player's Main Phase: You can send this card from your hand to the Graveyard; during this Main Phase, Dinosaur-Type monsters you control are unaffected by your opponent's activated effects. You can banish any number of Dinosaur-Type monsters from your Graveyard, including this card; Special Summon 1 Dinosaur-Type monster from your Deck with a Level equal to the total number of monsters banished to activate this effect, but destroy it during the End Phase. You can only use this effect of \"Miscellaneousaurus\" once per turn.",
+            "race": "Dinosaur",
+            "atk": 1800,
+            "def": 1000,
+            "level": 4,
+            "attribute": "FIRE",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/miscellaneousaurus-3272",
+            "card_sets": [
+                {
+                    "set_name": "2017 Mega-Tin Mega Pack",
+                    "set_code": "MP17-EN193",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Dinosmasher's Fury Structure Deck",
+                    "set_code": "SR04-EN014",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Maximum Gold",
+                    "set_code": "MAGO-EN015",
+                    "set_rarity": "Premium Gold Rare",
+                    "set_rarity_code": "(PG)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN022",
+                    "set_rarity": "Collector's Rare",
+                    "set_rarity_code": "(CR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN022",
+                    "set_rarity": "Platinum Secret Rare",
+                    "set_rarity_code": "(PS)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN022",
+                    "set_rarity": "Quarter Century Secret Rare",
+                    "set_rarity_code": "",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN022",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN022",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN022",
+                    "set_rarity": "Ultimate Rare",
+                    "set_rarity_code": "(UtR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN022",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Raging Tempest",
+                    "set_code": "RATE-EN028",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Wild Survivors",
+                    "set_code": "WISU-EN011",
+                    "set_rarity": "Rare",
+                    "set_rarity_code": "(R)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Limited"
+            },
+            "card_images": [
+                {
+                    "id": 38572779,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/38572779.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/38572779.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/38572779.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.09",
+                    "tcgplayer_price": "0.07",
+                    "ebay_price": "0.99",
+                    "amazon_price": "0.49",
+                    "coolstuffinc_price": "0.25"
+                }
+            ]
+        },
+        {
+            "id": 99937011,
+            "name": "Mudora the Sword Oracle",
+            "typeline": [
+                "Fairy",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "You can discard 1 other EARTH Fairy monster; Special Summon this card from your hand, then you can place 1 \"Gravekeeper's Trap\" from your Deck face-up in your Spell & Trap Zone. (Quick Effect): You can banish this card from your field or GY, then target up to 3 cards in any GY(s), or up to 5 if \"Exchange of the Spirit\" is on your field or in your GY; shuffle them into the Deck. You can only use each effect of \"Mudora the Sword Oracle\" once per turn.",
+            "race": "Fairy",
+            "atk": 1500,
+            "def": 1800,
+            "level": 4,
+            "attribute": "EARTH",
+            "archetype": "Exchange of the Spirit",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/mudora-the-sword-oracle-13194",
+            "card_sets": [
+                {
+                    "set_name": "Magnificent Mavens",
+                    "set_code": "MAMA-EN026",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Limited",
+                "ban_ocg": "Limited"
+            },
+            "card_images": [
+                {
+                    "id": 99937011,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/99937011.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/99937011.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/99937011.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.34",
+                    "tcgplayer_price": "0.24",
+                    "ebay_price": "1.79",
+                    "amazon_price": "0.74",
+                    "coolstuffinc_price": "3.99"
+                }
+            ]
+        },
+        {
+            "id": 54719828,
+            "name": "Number 16: Shock Master",
+            "typeline": [
+                "Fairy",
+                "Xyz",
+                "Effect"
+            ],
+            "type": "XYZ Monster",
+            "humanReadableCardType": "Xyz Effect Monster",
+            "frameType": "xyz",
+            "desc": "3 Level 4 monsters\nOnce per turn: You can detach 1 Xyz Material from this card to declare 1 card type (Monster, Spell, or Trap); that type of card (if Spell or Trap) cannot be activated, or (if Monster) cannot activate its effects, until the end of your opponent's next turn.",
+            "race": "Fairy",
+            "atk": 2300,
+            "def": 1600,
+            "level": 4,
+            "attribute": "LIGHT",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/number-16-shock-master-4663",
+            "card_sets": [
+                {
+                    "set_name": "Collectible Tins 2012 Wave 2",
+                    "set_code": "CT09-EN014",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "4.08"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN166",
+                    "set_rarity": "Platinum Secret Rare",
+                    "set_rarity_code": "(PS)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN166",
+                    "set_rarity": "Quarter Century Secret Rare",
+                    "set_rarity_code": "",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Weekly Shonen Jump Alpha April 2012 membership promotional card",
+                    "set_code": "JUMP-EN060",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "23.07"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Forbidden",
+                "ban_ocg": "Forbidden"
+            },
+            "card_images": [
+                {
+                    "id": 54719828,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/54719828.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/54719828.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/54719828.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "1.78",
+                    "tcgplayer_price": "2.75",
+                    "ebay_price": "17.99",
+                    "amazon_price": "2.38",
+                    "coolstuffinc_price": "1.99"
+                }
+            ]
+        },
+        {
+            "id": 63504681,
+            "name": "Number 86: Heroic Champion - Rhongomyniad",
+            "typeline": [
+                "Warrior",
+                "Xyz",
+                "Effect"
+            ],
+            "type": "XYZ Monster",
+            "humanReadableCardType": "Xyz Effect Monster",
+            "frameType": "xyz",
+            "desc": "2 or more (max. 5) Level 4 Warrior monsters\nOnce per turn, during your opponent's End Phase: Detach 1 material from this card. This card gains effects based on the number of materials attached to it.\n● 1+: Cannot be destroyed by battle. ● 2+: Gains 1500 ATK/DEF. ● 3+: Unaffected by other cards' effects. ● 4+: Your opponent cannot Normal or Special Summon monsters. ● 5: Once per turn: You can destroy all cards your opponent controls.",
+            "race": "Warrior",
+            "atk": 1500,
+            "def": 1500,
+            "level": 4,
+            "attribute": "DARK",
+            "archetype": "Heroic",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/number-86-heroic-champion-rhongomyniad-5364",
+            "card_sets": [
+                {
+                    "set_name": "Legendary Hero Decks",
+                    "set_code": "LEHD-ENC37",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "1.24"
+                },
+                {
+                    "set_name": "World Superstars",
+                    "set_code": "WSUP-EN022",
+                    "set_rarity": "Prismatic Secret Rare",
+                    "set_rarity_code": "(PScR)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Forbidden",
+                "ban_ocg": "Forbidden"
+            },
+            "card_images": [
+                {
+                    "id": 63504681,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/63504681.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/63504681.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/63504681.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.29",
+                    "tcgplayer_price": "0.41",
+                    "ebay_price": "0.99",
+                    "amazon_price": "1.49",
+                    "coolstuffinc_price": "0.25"
+                }
+            ]
+        },
+        {
+            "id": 12958919,
+            "name": "Phantom Skyblaster",
+            "typeline": [
+                "Fiend",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "When this card is Normal or Flip Summoned: You can Special Summon any number of \"Skyblaster Tokens\" (Fiend/DARK/Level 4/ATK 500/DEF 500), up to the number of monsters you control. Once per turn, during your Standby Phase: You can inflict 300 damage to your opponent for each \"Skyblaster\" monster you control. \"Skyblaster\" monsters you control cannot declare an attack during the turn you activate this effect.",
+            "race": "Fiend",
+            "atk": 1100,
+            "def": 800,
+            "level": 4,
+            "attribute": "DARK",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/phantom-skyblaster-1114",
+            "card_sets": [
+                {
+                    "set_name": "Duel Terminal 6b",
+                    "set_code": "DT06-EN056",
+                    "set_rarity": "Duel Terminal Normal Parallel Rare",
+                    "set_rarity_code": "(DNPR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Duelist Pack: Jesse Anderson",
+                    "set_code": "DP07-EN007",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "3.2"
+                },
+                {
+                    "set_name": "Egyptian God Deck: Slifer the Sky Dragon",
+                    "set_code": "EGS1-EN010",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "1.37"
+                },
+                {
+                    "set_name": "Legendary Collection 2: The Duel Academy Years Mega Pack",
+                    "set_code": "LCGX-EN194",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "OTS Tournament Pack 6",
+                    "set_code": "OP06-EN021",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Powercode Link",
+                    "set_code": "SDPL-EN015",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Sacred Beasts",
+                    "set_code": "SDSA-EN007",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "1.06"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Limited"
+            },
+            "card_images": [
+                {
+                    "id": 12958919,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/12958919.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/12958919.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/12958919.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.11",
+                    "tcgplayer_price": "0.10",
+                    "ebay_price": "0.99",
+                    "amazon_price": "2.92",
+                    "coolstuffinc_price": "0.25"
+                }
+            ]
+        },
+        {
+            "id": 34909328,
+            "name": "Ryzeal Detonator",
+            "typeline": [
+                "Pyro",
+                "Xyz",
+                "Effect"
+            ],
+            "type": "XYZ Monster",
+            "humanReadableCardType": "Xyz Effect Monster",
+            "frameType": "xyz",
+            "desc": "2+ Level 4 \"Ryzeal\" monsters\r\nWhen your opponent activates a card or effect (Quick Effect): You can detach 1 material from this card, then target 1 card on the field; destroy it. You can only use each of the following effects of \"Ryzeal Detonator\" once per turn. If this card is Special Summoned: You can attach 1 monster from your GY to this card as material. If an Xyz Monster(s) you control would be destroyed by battle or card effect, you can detach 1 material from this card instead.",
+            "race": "Pyro",
+            "atk": 3000,
+            "def": 2500,
+            "level": 4,
+            "attribute": "LIGHT",
+            "archetype": "Ryzeal",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/ryzeal-detonator-14649",
+            "card_sets": [
+                {
+                    "set_name": "Crossover Breakers",
+                    "set_code": "CRBR-EN007",
+                    "set_rarity": "Collector's Rare",
+                    "set_rarity_code": "(CR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Crossover Breakers",
+                    "set_code": "CRBR-EN007",
+                    "set_rarity": "Quarter Century Secret Rare",
+                    "set_rarity_code": "",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Crossover Breakers",
+                    "set_code": "CRBR-EN007",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Limited"
+            },
+            "card_images": [
+                {
+                    "id": 34909328,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/34909328.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/34909328.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/34909328.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "3.82",
+                    "tcgplayer_price": "3.17",
+                    "ebay_price": "0.00",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "0.00"
+                }
+            ]
+        },
+        {
+            "id": 35844557,
+            "name": "Sword Ryzeal",
+            "typeline": [
+                "Thunder",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "If you have a \"Ryzeal\" monster in your field or GY, you can Special Summon this card (from your hand). If Summoned this way, you cannot Special Summon from the Extra Deck for the rest of this turn, except Rank 4 Xyz Monsters. You can only Special Summon \"Sword Ryzeal\" once per turn this way. If this card is Normal or Special Summoned: You can add 1 LIGHT Pyro monster from your Deck to your hand. You can only use this effect of \"Sword Ryzeal\" once per turn.",
+            "race": "Thunder",
+            "atk": 1500,
+            "def": 200,
+            "level": 4,
+            "attribute": "FIRE",
+            "archetype": "Ryzeal",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/sword-ryzeal-14643",
+            "card_sets": [
+                {
+                    "set_name": "Crossover Breakers",
+                    "set_code": "CRBR-EN001",
+                    "set_rarity": "Collector's Rare",
+                    "set_rarity_code": "(CR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Crossover Breakers",
+                    "set_code": "CRBR-EN001",
+                    "set_rarity": "Quarter Century Secret Rare",
+                    "set_rarity_code": "",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Crossover Breakers",
+                    "set_code": "CRBR-EN001",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Semi-Limited",
+                "ban_ocg": "Limited"
+            },
+            "card_images": [
+                {
+                    "id": 35844557,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/35844557.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/35844557.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/35844557.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "8.46",
+                    "tcgplayer_price": "8.39",
+                    "ebay_price": "0.00",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "0.00"
+                }
+            ]
+        },
+        {
+            "id": 572850,
+            "name": "Tearlaments Scheiren",
+            "typeline": [
+                "Aqua",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "During your Main Phase: You can Special Summon this card from your hand, and if you do, send 1 monster from your hand to the GY, then, send the top 3 cards of your Deck to the GY. If this card is sent to the GY by card effect (except during the Damage Step): You can Fusion Summon 1 Fusion Monster from your Extra Deck, by placing Fusion Materials mentioned on it from your hand, field, and/or GY, including this card from your GY, on the bottom of the Deck in any order. You can only use each effect of \"Tearlaments Scheiren\" once per turn.",
+            "race": "Aqua",
+            "atk": 1800,
+            "def": 1300,
+            "level": 4,
+            "attribute": "DARK",
+            "archetype": "Tearlaments",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/tearlaments-scheiren-13206",
+            "card_sets": [
+                {
+                    "set_name": "Power of the Elements",
+                    "set_code": "POTE-EN014",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Limited",
+                "ban_ocg": "Limited"
+            },
+            "card_images": [
+                {
+                    "id": 572850,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/572850.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/572850.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/572850.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "2.84",
+                    "tcgplayer_price": "1.29",
+                    "ebay_price": "2.95",
+                    "amazon_price": "1.49",
+                    "coolstuffinc_price": "0.99"
+                }
+            ]
+        },
+        {
+            "id": 91810826,
+            "name": "Tenpai Dragon Chundra",
+            "typeline": [
+                "Dragon",
+                "Tuner",
+                "Effect"
+            ],
+            "type": "Tuner Monster",
+            "humanReadableCardType": "Tuner Effect Monster",
+            "frameType": "effect",
+            "desc": "Once per turn, during the Battle Phase, you can (Quick Effect): Immediately after this effect resolves, Synchro Summon using this card you control. You can only use each of the following effects of \"Tenpai Dragon Chundra\" once per turn. If you control a FIRE Dragon monster: You can Special Summon this card from your hand. At the start of the Damage Step, if a monster battles: You can Special Summon 1 Level 4 or lower FIRE Dragon monster from your Deck, except \"Tenpai Dragon Chundra\".",
+            "race": "Dragon",
+            "atk": 1500,
+            "def": 1000,
+            "level": 4,
+            "attribute": "FIRE",
+            "archetype": "Tenpai Dragon",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/tenpai-dragon-chundra-14277",
+            "card_sets": [
+                {
+                    "set_name": "Legacy of Destruction",
+                    "set_code": "LEDE-EN018",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "OTS Tournament Pack 27",
+                    "set_code": "OP27-EN006",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Limited",
+                "ban_ocg": "Limited"
+            },
+            "card_images": [
+                {
+                    "id": 91810826,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/91810826.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/91810826.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/91810826.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.16",
+                    "tcgplayer_price": "0.18",
+                    "ebay_price": "0.00",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "0.00"
+                }
+            ]
+        },
+        {
+            "id": 99234526,
+            "name": "White Dragon Wyverburster",
+            "typeline": [
+                "Dragon",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by banishing 1 DARK monster from your GY. You can only Special Summon \"White Dragon Wyverburster\" once per turn this way. If this card is sent from the field to the GY: You can add 1 \"Black Dragon Collapserpent\" from your Deck to your hand.",
+            "race": "Dragon",
+            "atk": 1700,
+            "def": 1800,
+            "level": 4,
+            "attribute": "LIGHT",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/white-dragon-wyverburster-8240",
+            "card_sets": [
+                {
+                    "set_name": "2014 Mega-Tin Mega Pack",
+                    "set_code": "MP14-EN184",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Astral Pack Six",
+                    "set_code": "AP06-EN005",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Battles of Legend: Hero's Revenge",
+                    "set_code": "BLHR-EN076",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Maximum Gold: El Dorado",
+                    "set_code": "MGED-EN132",
+                    "set_rarity": "Rare",
+                    "set_rarity_code": "(R)",
+                    "set_price": "1.02"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN203",
+                    "set_rarity": "Platinum Secret Rare",
+                    "set_rarity_code": "(PS)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN203",
+                    "set_rarity": "Quarter Century Secret Rare",
+                    "set_rarity_code": "",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Rise of the True Dragons Structure Deck",
+                    "set_code": "SR02-EN016",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Shadow Specters",
+                    "set_code": "SHSP-EN093",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Albaz Strike",
+                    "set_code": "SDAZ-EN012",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0.89"
+                },
+                {
+                    "set_name": "Synchron Extreme Structure Deck",
+                    "set_code": "SDSE-EN022",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "1.28"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Semi-Limited"
+            },
+            "card_images": [
+                {
+                    "id": 99234526,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/99234526.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/99234526.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/99234526.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.07",
+                    "tcgplayer_price": "0.12",
+                    "ebay_price": "1.94",
+                    "amazon_price": "0.79",
+                    "coolstuffinc_price": "0.25"
+                }
+            ]
+        },
+        {
+            "id": 85115440,
+            "name": "Zoodiac Broadbull",
+            "typeline": [
+                "Beast-Warrior",
+                "Xyz",
+                "Effect"
+            ],
+            "type": "XYZ Monster",
+            "humanReadableCardType": "Xyz Effect Monster",
+            "frameType": "xyz",
+            "desc": "2 Level 4 monsters\nOnce per turn, you can also Xyz Summon \"Zoodiac Broadbull\" by using 1 \"Zoodiac\" monster you control with a different name as Xyz Material. (If you used an Xyz Monster, any Xyz Materials attached to it also become Xyz Materials on this card.) This card gains ATK and DEF equal to the ATK and DEF of all \"Zoodiac\" monsters attached to it as Materials. Once per turn: You can detach 1 Xyz Material from this card; add 1 Beast-Warrior-Type monster, that can be Normal Summoned/Set, from your Deck to your hand.",
+            "race": "Beast-Warrior",
+            "atk": -1,
+            "def": -1,
+            "level": 4,
+            "attribute": "EARTH",
+            "archetype": "Zoodiac",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/zoodiac-broadbull-8349",
+            "card_sets": [
+                {
+                    "set_name": "2017 Mega-Tin Mega Pack",
+                    "set_code": "MP17-EN206",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Raging Tempest",
+                    "set_code": "RATE-EN051",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Forbidden",
+                "ban_ocg": "Forbidden"
+            },
+            "card_images": [
+                {
+                    "id": 85115440,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/85115440.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/85115440.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/85115440.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "1.18",
+                    "tcgplayer_price": "1.21",
+                    "ebay_price": "3.95",
+                    "amazon_price": "1.64",
+                    "coolstuffinc_price": "1.49"
+                }
+            ]
+        },
+        {
+            "id": 48905153,
+            "name": "Zoodiac Drident",
+            "typeline": [
+                "Beast-Warrior",
+                "Xyz",
+                "Effect"
+            ],
+            "type": "XYZ Monster",
+            "humanReadableCardType": "Xyz Effect Monster",
+            "frameType": "xyz",
+            "desc": "4 Level 4 monsters\r\nOnce per turn, you can also Xyz Summon \"Zoodiac Drident\" by using 1 \"Zoodiac\" monster you control with a different name as Xyz Material. (If you used an Xyz Monster, any Xyz Materials attached to it also become Xyz Materials on this card.) This card gains ATK and DEF equal to the ATK and DEF of all \"Zoodiac\" monsters attached to it as Materials. Once per turn, during either player's turn: You can detach 1 Xyz Material from this card, then target 1 face-up card on the field; destroy it.",
+            "race": "Beast-Warrior",
+            "atk": -1,
+            "def": -1,
+            "level": 4,
+            "attribute": "EARTH",
+            "archetype": "Zoodiac",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/zoodiac-drident-4173",
+            "card_sets": [
+                {
+                    "set_name": "2017 Mega-Tin Mega Pack",
+                    "set_code": "MP17-EN208",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Maximum Gold",
+                    "set_code": "MAGO-EN036",
+                    "set_rarity": "Premium Gold Rare",
+                    "set_rarity_code": "(PG)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Raging Tempest",
+                    "set_code": "RATE-EN053",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Forbidden",
+                "ban_ocg": "Limited"
+            },
+            "card_images": [
+                {
+                    "id": 48905153,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/48905153.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/48905153.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/48905153.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.39",
+                    "tcgplayer_price": "0.32",
+                    "ebay_price": "3.60",
+                    "amazon_price": "0.99",
+                    "coolstuffinc_price": "0.99"
+                }
+            ]
+        },
+        {
+            "id": 78872731,
+            "name": "Zoodiac Ratpier",
+            "typeline": [
+                "Beast-Warrior",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "If this card is Normal Summoned: You can send 1 \"Zoodiac\" card from your Deck to the Graveyard. An Xyz Monster whose original Type is Beast-Warrior and has this card as Xyz Material gains this effect.\n● Once per turn: You can detach 1 Xyz Material from this card; Special Summon 1 \"Zoodiac Ratpier\" from your hand or Deck.",
+            "race": "Beast-Warrior",
+            "atk": 0,
+            "def": 0,
+            "level": 4,
+            "attribute": "EARTH",
+            "archetype": "Zoodiac",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/zoodiac-ratpier-6629",
+            "card_sets": [
+                {
+                    "set_name": "2017 Mega-Tin Mega Pack",
+                    "set_code": "MP17-EN181",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN274",
+                    "set_rarity": "Platinum Secret Rare",
+                    "set_rarity_code": "(PS)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Quarter Century Stampede",
+                    "set_code": "RA04-EN274",
+                    "set_rarity": "Quarter Century Secret Rare",
+                    "set_rarity_code": "",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Raging Tempest",
+                    "set_code": "RATE-EN014",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Limited",
+                "ban_ocg": "Limited"
+            },
+            "card_images": [
+                {
+                    "id": 78872731,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/78872731.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/78872731.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/78872731.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.25",
+                    "tcgplayer_price": "0.33",
+                    "ebay_price": "1.33",
+                    "amazon_price": "0.70",
+                    "coolstuffinc_price": "0.99"
+                }
+            ]
+        }
+    ]
+}

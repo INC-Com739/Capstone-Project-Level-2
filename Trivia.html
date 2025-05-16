@@ -146,46 +146,45 @@
     </style>
     </head>
     <body>
-     <header>
+    <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Main navigation">
-        <a class="navbar-brand" href="#">Yu-Gi-Oh API</a>
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item">
-                    <a class="nav-link" href="trivia.html">Trivia</a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="card-list.html">Cards</a></li>
-                <li class="nav-item"><a class="nav-link" href="rules.html">Rules</a></li>
-            </ul>
-        </div>
-    </nav>
+            <a class="navbar-brand" href="#">Yu-Gi-Oh API</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="trivia.html">Banlist Trivia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="card-list.html">Cards</a></li>
+                    <li class="nav-item"><a class="nav-link" href="rules.html">Rules</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <section>
-    <h1>Trivia</h1>
-    <div class="alert alert-info" role="alert">Test your knowledge about Yu-Gi-Oh!</div>
-    <div class="container">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Trivia Question</h5>
-                <p class="card-text">Question will appear here.</p>
-                <form>
-                    <div class="form-group">
-                        <label for="answer">Your Answer</label>
-                        <input type="text" class="form-control" id="answer" name="answer" required>
-                        <div class="valid-feedback">Correct! Moving to the next question...</div>
-                        <div class="invalid-feedback">Incorrect. Please try again.</div>
-                    </div>
-                    <button type=" button" class="btn btn-start" id="start">Start Trivia</button>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                    <button type="button" class="btn btn-secondary" id="next-question" disabled>Next Question</button>
-                    <button type="button" class="btn btn-tertiary" id="last-question" disabled>Last Question</button>
-                    <button type="button" class="btn btn-reset" id="reset-trivia">Reset Trivia</button>
-                </form>
+        <h1>Banlist Trivia</h1>
+        <div class="alert alert-info" role="alert">Test your Forbidden knowledge about Yu-Gi-Oh!</div>
+        <div class="container">
+            <div class="card">
+               <div class="card-body">
+    <h5 class="card-title">Trivia Question</h5>
+    <div id="card-image" class="mb-3"></div> <!-- Image container -->
+    <p class="card-text">Question will appear here.</p>
+    <form>
+        <div class="form-group">
+            <label for="answer">Your Answer</label>
+            <input type="text" class="form-control" id="answer" name="answer" required>
+            <div class="valid-feedback">Correct! Moving to the next question...</div>
+            <div class="invalid-feedback">Incorrect. Please try again.</div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="button" class="btn btn-secondary" id="next-question" disabled>Next Question</button>
+        <button type="button" class="btn btn-secondary" id="last-question" disabled>Last Question</button>
+        <button type="button" class="btn btn-secondary" id="reset-trivia">Reset Trivia</button>
+    </form>
+</div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+    <script src="Trivia.js"></script>
 </body>
 <script src="Trivia.js"></script>
 </html>
