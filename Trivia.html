@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+    html, body {
+        background-color: #670116;
+        background-image: url('https://wallpapercave.com/wp/wp2279328.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    main {
+        flex: 1;
+    }
+    .navbar {
+        margin-bottom: 20px;
+    }
+    .container {
+        max-width: 800px;
+        margin: auto;
+    }
+    .card {
+        margin: 20px 0;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s;
+    }
+    .card-title {
+        font-size: 1.5rem;
+        color: #000;
+        font-family: fantasy;
+        font-weight: bold;
+    }
+    .card-text {
+        font-size: 1rem;
+        color: #000;
+        font-weight: bold;
+        font-family: fantasy;
+    }
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+    .form-control {
+        margin-bottom: 10px;
+    }
+    .form-group {
+        margin-bottom: 15px;
+        color: #000;
+    }
+    .invalid-feedback {
+        display: none;
+    }
+    .form-control:invalid ~ .invalid-feedback {
+        display: block;
+    }
+    .form-control:valid ~ .valid-feedback {
+        display: block;
+    }
+    .valid-feedback {
+        display: none;
+    }
+    .form-control:valid ~ .valid-feedback {
+        display: block;
+    }
+    .btn-primary:disabled {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+    .btn-primary:disabled:hover {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+    footer {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #343a40;
+        color: #fff;
+    }
+    footer p {
+        margin: 0;
+    }
+    footer a {
+        color: #fff;
+        text-decoration: none;
+    }
+    footer a:hover {
+        text-decoration: underline;
+    }
+    header {
+        background-color: #343a40;
+        padding: 10px;
+    }
+    header h1 {
+        color: #fff;
+        margin: 0;
+    }
+    header nav {
+        margin-bottom: 20px;
+    }
+    header nav a {
+        color: #fff;
+        text-decoration: none;
+    }
+    header nav a:hover {
+        text-decoration: underline;
+    }
+    header nav .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    h1 {
+        color: #000000;
+        font-family: fantasy;
+        font-weight: bold;
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        background-color: yellow;
+        padding: 10px;
+        border-radius: 10px;
+        text-shadow: 2px 2px 4px #000000;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        box-shadow: 0 4px 8px rgb(255, 226, 3);
+        transition: transform 0.2s;
+    }
+    </style>
+    </head>
+    <body>
+     <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Main navigation">
+        <a class="navbar-brand" href="#">Yu-Gi-Oh API</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="trivia.html">Trivia</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="card-list.html">Cards</a></li>
+                <li class="nav-item"><a class="nav-link" href="rules.html">Rules</a></li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+    <section>
+    <h1>Trivia</h1>
+    <div class="alert alert-info" role="alert">Test your knowledge about Yu-Gi-Oh!</div>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Trivia Question</h5>
+                <p class="card-text">Question will appear here.</p>
+                <form>
+                    <div class="form-group">
+                        <label for="answer">Your Answer</label>
+                        <input type="text" class="form-control" id="answer" name="answer" required>
+                        <div class="valid-feedback">Correct! Moving to the next question...</div>
+                        <div class="invalid-feedback">Incorrect. Please try again.</div>
+                    </div>
+                    <button type=" button" class="btn btn-start" id="start">Start Trivia</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="button" class="btn btn-secondary" id="next-question" disabled>Next Question</button>
+                    <button type="button" class="btn btn-tertiary" id="last-question" disabled>Last Question</button>
+                    <button type="button" class="btn btn-reset" id="reset-trivia">Reset Trivia</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+<script src="Trivia.js"></script>
+</html>

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Cards</title>
+</head>
+<style>
+    body {
+        background-color: #6f070c;
+       background-image: url('https://wallpapers.com/images/high/three-egyptian-gods-yu-gi-oh-t92ica3i6dcr4kcd.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+    }
+    .name{
+        color: #000;
+        font-family: fantasy;
+        font-weight: bold;
+    }
+    .card {
+        margin: 20px 0;
+    }
+    .navbar {
+        margin-bottom: 20px;
+        
+    }
+    .container {
+        max-width: 800px;
+    }
+    .card-title {
+        font-size: 1.5rem;
+        color: #000;
+        font-family: fantasy;
+        font-weight: bold;
+    }
+    .card-text {
+        font-size: 1rem;
+        color: #000;
+        font-weight: bold;
+        font-family: fantasy;
+    }
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+    .form-control {
+        margin-bottom: 10px;
+        color: #000;
+        font-family: fantasy;
+        font-weight: bold;
+    }
+    .form-group {
+        margin-bottom: 15px;
+        color: #000;
+        font-family: fantasy;
+        font-weight: bold;
+    }
+    .invalid-feedback {
+        display: none;
+    }
+    .form-control:invalid ~ .invalid-feedback {
+        display: block;
+    }
+    .form-control:valid ~ .valid-feedback {
+        display: block;
+    }
+    .valid-feedback {
+        display: none;
+    }
+    .form-control:valid ~ .valid-feedback {
+        display: block;
+    }
+    .btn-primary:disabled {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+    .btn-primary:disabled:hover {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+    footer {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #343a40;
+        color: #fff;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Main navigation">
+        <a class="navbar-brand" href="#">Yu-Gi-Oh API</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="trivia.html">Trivia</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="card-list.html">Cards</a></li>
+                <li class="nav-item"><a class="nav-link" href="rules.html">Rules</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Card List</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Choose Your Card</h5>
+                        <a href="#" class="btn btn-primary">Generate Random Card</a>
+                        <form id="cardForm">
+                            <div class="form-group"></div>
+                <h2 class="name">Name</h2>
+                <input type="text" class="form-control" id="name" required>
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please enter a name.</div>
+            </div>
+            <div class="form-group">
+                <label for="type">Type</label>
+                <select class="form-control" id="type" required>
+                    <option value="">Select Type</option>
+                    <option value="Monster">Monster</option>
+                    <option value="Spell">Spell</option>
+                    <option value="Trap">Trap</option>
+                    <option value="Fusion">Fusion</option>
+                    <option value="Synchro">Synchro</option>
+                    <option value="XYZ">XYZ</option>
+                    <option value="Link">Link</option>
+                    <option value="Ritual">Ritual</option>
+                    <option value="Effect">Effect</option>
+                    <option value="Normal">Normal</option>
+                    <option value="Continuous">Continuous</option>
+                    <option value="Equip">Equip</option>
+                    <option value="Field">Field</option>
+                    <option value="Counter">Counter</option>
+                    <option value="Quick-Play">Quick-Play</option>
+                    <option value="Normal Spell">Normal Spell</option>
+                    <option value="Normal Trap">Normal Trap</option>
+                    <option value="Continuous Trap">Continuous Trap</option>
+                    <option value="Counter Trap">Counter Trap</option>
+                    <option value="Field Spell">Field Spell</option>
+                    <option value="Ritual Spell">Ritual Spell</option>
+                    <option value="Normal Monster">Normal Monster</option>
+                    <option value="Effect Monster">Effect Monster</option>
+                    <option value="Ritual Monster">Ritual Monster</option>
+                    <option value="Synchro Monster">Synchro Monster</option>
+                    <option value="XYZ Monster">XYZ Monster</option>
+                    <option value="Link Monster">Link Monster</option>
+                    <option value="Pendulum Monster">Pendulum Monster</option>
+                    <option value="Spirit Monster">Spirit Monster</option>
+                    <option value="Toon Monster">Toon Monster</option>
+                    <option value="Gemini Monster">Gemini Monster</option>
+                    <option value="Union Monster">Union Monster</option>
+                    <option value="Token">Token</option>
+                </select>
+                <div class="invalid-feedback">Please select a type.</div>
+            </div>
+            <div class="form-group">
+                <label>Level</label>
+                <div>
+                    <input type="radio" id="level1" name="level" value="1" required>
+                    <label for="level1">1</label>
+                    <input type="radio" id="level2" name="level" value="2" required>
+                    <label for="level2">2</label>
+                    <input type="radio" id="level3" name="level" value="3" required>
+                    <label for="level3">3</label>
+                    <input type="radio" id="level4" name="level" value="4" required>
+                    <label for="level4">4</label>
+                    <input type="radio" id="level5" name="level" value="5" required>
+                    <label for="level5">5</label>
+                    <input type="radio" id="level6" name="level" value="6" required>
+                    <label for="level6">6</label>
+                    <input type="radio" id="level7" name="level" value="7" required>
+                    <label for="level7">7</label>
+                    <input type="radio" id="level8" name="level" value="8" required>
+                    <label for="level8">8</label>
+                    <input type="radio" id="level9" name="level" value="9" required>
+                    <label for="level9">9</label>
+                    <input type="radio" id="level10" name="level" value="10" required>
+                    <label for="level10">10</label>
+                </div>
+                <div class="invalid-feedback">Please select an Level.</div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <div id="result" class="mt-4"></div>
+    </div>
+    <button type="reset" class="btn btn-secondary" id="resetButton">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Enable Bootstrap tooltips
+        document.addEventListener('DOMContentLoaded', function () {
+            const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="tooltip"]'));
+            const tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl);
+            });
+        });
+       document.getElementById('cardForm').addEventListener('submit', async function (event) {
+  event.preventDefault(); // Prevent form submission
+
+  try {
+    const url = 'https://db.ygoprodeck.com/api/v7/cardinfo.php';
+    const response = await fetch(url); // Fetch the response
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    const data = await response.json(); // Parse the JSON data
+
+    if (data.data && data.data.length > 0) {
+      // Get user input
+      const nameInput = document.getElementById('name').value.toLowerCase();
+      const typeInput = document.getElementById('type').value;
+      const eraInput = document.querySelector('input[name="era"]:checked')?.value;
+
+      // Filter cards based on user input
+      const filteredCards = data.data.filter(card => {
+        const cardName = card.name ? card.name.toLowerCase() : '';
+        const cardType = card.type || '';
+        const cardEra = card.era || ''; // Adjust this if the API does not provide an "era" property
+
+        return (
+          cardName.includes(nameInput) &&
+          cardType === typeInput &&
+          (!eraInput || cardEra === eraInput) // Only filter by era if it's provided
+        );
+      });
+
+      if (filteredCards.length > 0) {
+        // Display the first matching card
+        const card = filteredCards[0];
+        const resultHTML = `
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">${card.name}</h5>
+              <img src="${card.card_images[0]?.image_url_small || ''}" class="card-img-top" alt="${card.name}">
+              <p class="card-text">Type: ${card.type}</p>
+              <p class="card-text">Level: ${card.level || 'N/A'}</p>
+            </div>
+          </div>
+        `;
+        document.getElementById('result').innerHTML = resultHTML;
+      } else {
+        document.getElementById('result').innerHTML = '<p>No matching card found.</p>';
+      }
+    } else {
+      console.error('No card data available.');
+    }
+  } catch (error) {
+    console.error('Error fetching card data:', error);
+  }
+});
+      // Generate random card information from the Yu-Gi-Oh API
+document.querySelector('.btn-primary').addEventListener('click', async function () {
+  try {
+    const url = 'https://db.ygoprodeck.com/api/v7/cardinfo.php';
+    const response = await fetch(url); // Fetch the response
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    const data = await response.json(); // Parse the JSON data
+    if (data.data && data.data.length > 0) {
+      // Generate a random index
+      const randomIndex = Math.floor(Math.random() * data.data.length);
+      const card = data.data[randomIndex]; // Select a random card
+      const resultHTML = `
+        <div class="card mt-4">
+          <div class="card-body">
+            <h5 class="card-title">${card.name}</h5>
+            <img src="${card.card_images[0].image_url_small}" class="card-img-top" alt="${card.name}">
+            <p class="card-text">Type: ${card.type}</p>
+            <p class="card-text">Level: ${card.level || 'N/A'}</p>
+          </div>
+        </div>
+      `;
+      document.getElementById('result').innerHTML = resultHTML;
+    } else {
+      console.error('No card data available.');
+    }
+  } catch (error) {
+    console.error('Error fetching random card:', error);
+  }
+});
+            // Have the reset button reset the form after generating a random card and go back to the form
+            document.getElementById('resetButton').addEventListener('click', function() {
+                document.getElementById('cardForm').innerHTML = `
+                <h2 class="name">Name</h2>
+                <input type="text" class="form-control" id="name" required>
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please enter a name.</div>
+            </div>`;
+                document.getElementById('result').innerHTML = '';
+            });
+        ;
+            
+    </script>
+</body>
+</html>
