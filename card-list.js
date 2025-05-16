@@ -17,6 +17,9 @@ fetchCardInfo();
 
 document.querySelector('.btn-primary').addEventListener('click', async function () {
   try {
+    // Show the spinner
+    document.getElementById('spinner').style.display = 'block';
+
     const url = 'https://db.ygoprodeck.com/api/v7/cardinfo.php';
     const response = await fetch(url); // Fetch the response
     if (!response.ok) {
@@ -35,13 +38,14 @@ document.querySelector('.btn-primary').addEventListener('click', async function 
           </div>
         </div>
       `;
-      document.getElementById('cardForm').innerHTML = resultHTML;
+      document.getElementById('result').innerHTML = resultHTML;
     } else {
       console.error('No card data available.');
     }
   } catch (error) {
     console.error('Error fetching random card:', error);
+  } finally {
+    // Hide the spinner
+    document.getElementById('spinner').style.display = 'none';
   }
 });
-
-
